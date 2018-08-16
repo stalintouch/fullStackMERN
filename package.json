@@ -10,11 +10,18 @@
   "author": "Mostafa Eweda <mo.eweda@gmail.com>",
   "dependencies": {
     "async": "~2.6.1",
+    "cookie-session": "^2.0.0-beta.3",
     "express": "^4.16.3",
+    "mongoose": "^5.2.8",
+    "mongose": "0.0.2-security",
+    "nodemon": "^1.18.3",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^1.0.0",
     "socket.io": "~2.1.1"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "devDependencies": {},
   "license": "ISC"
